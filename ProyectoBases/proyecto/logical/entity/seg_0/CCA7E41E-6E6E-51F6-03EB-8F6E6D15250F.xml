@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCA7E41E-6E6E-51F6-03EB-8F6E6D15250F" name="DIRECCION">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>F33C1C3C-09B3-56C2-4713-1223E1BF72AE</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="92A445C4-D659-B57E-1A30-5430C23E0D5D">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>502B7152-BFB0-CD84-AE7E-D1AE0A7ED9B4</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="0C74CBFC-A557-4FD2-BB08-3BA338B4FF5D">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>4AE99483-3AF9-A62E-942A-30ED8AAD3366</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zona" id="CB18FCD8-8237-90C7-1566-4575C1A5630A">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>184A46B9-93E3-A09A-FF4C-C545A12FE753</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLIENTE dpi" id="DE32E8EF-9CA3-299A-41F0-04E3E38D6C2F">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>E7D81433-C2C5-EB2C-A2CA-5FB6245C3BF1</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>DD2C3CFF-674A-4E68-81E9-EF0CDBA523E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MUNICIPIO id" id="C09766B1-83BE-AA71-209A-DCEAD9D956EA">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:51:50 UTC</createdTime>
+<generatorID>179B6551-C8E8-BC41-1F48-C09ACC422D48</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>1000843C-2A05-160F-AE2F-DEAAC1FAAB23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F727DE23-02D7-4A26-89C7-38C3AF28AEEB" name="DIRECCION PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>8FB3FC22-57B6-1614-9AD0-37DA3D2EFB9C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92A445C4-D659-B57E-1A30-5430C23E0D5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

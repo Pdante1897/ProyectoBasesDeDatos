@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0603391A-0579-1D44-4ECF-454B1CBE5846" name="MUNICIPIO">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>C6654380-B2E5-7187-2CDA-15B980F1453F</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1000843C-2A05-160F-AE2F-DEAAC1FAAB23">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>366DF605-C8F3-1630-64F2-B838DC6EB736</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="CA868829-BED7-7504-8716-8CBF0D81EC37">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>EAED0C3A-038C-5B97-E990-50E39FCF46A7</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68F0FC01-53BB-737F-A61C-647CD288083E" name="MUNICIPIO PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>0167E658-B589-7474-86BE-6CF0A11879B7</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1000843C-2A05-160F-AE2F-DEAAC1FAAB23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2BCB77A-8CE4-0691-B2AD-F0EBB2E1F6A0" name="ORDEN">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>41AC6DAF-9541-1675-2FA9-FF113A1DA3F1</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DD8D14B5-85A8-81E0-51C4-41BC5B149012">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>BACD57C6-4EBA-BD89-696A-3E2A5103A5E9</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="canal" id="633651B3-419F-B5F0-308E-7B7984BF1A58">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>8B28DAFD-C47E-6D22-32DB-F89F12D76F82</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="D75DE983-BFAE-45A0-445B-C02C30A3E501">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>AF78F842-6A57-204F-A4A5-CB0BA72B8488</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLIENTE dpi" id="9963BFF5-0323-3EB1-840A-9B8D135B9B80">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>4EBBA9B2-0401-2774-8642-AC77E21D926C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>DD2C3CFF-674A-4E68-81E9-EF0CDBA523E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION id" id="CB385093-49F2-EEBE-DCA7-FB2391BA56CC">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>5096C294-7F1B-AB05-6B9C-5915D67204CF</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>92A445C4-D659-B57E-1A30-5430C23E0D5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLEADO id" id="B9971745-7B2C-E0E5-F564-E909D2CA25C2">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>FC8859CB-3C71-777B-9CF1-9726F36C356F</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E4CFF75E-518B-6F7D-DCAF-18741DE96631</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40CB5B4B-E51F-AD43-D4AA-44D52F4B6833" name="ORDEN PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>743FD019-9786-D099-9C6B-7050343ED53F</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD8D14B5-85A8-81E0-51C4-41BC5B149012</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

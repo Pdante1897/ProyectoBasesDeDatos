@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FACTURA_ORDEN_FK" directorySegmentName="seg_0" id="B4BA07E9-06ED-5284-7C55-1A92B102DBB7">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>1BFC06FC-E06D-7D50-3E2C-B38A1717EA00</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<sourcePk>40CB5B4B-E51F-AD43-D4AA-44D52F4B6833</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F2BCB77A-8CE4-0691-B2AD-F0EBB2E1F6A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>48AFA344-DE3C-4254-D630-F8666581B092</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4411CD3-6E43-3AB0-3060-730CCC019BA6" name="EMPLEADO">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:51:33 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0E14D90E-6E09-B7E2-5A7E-4510C6499667">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="E391CA44-25C2-67D9-949A-939BFD93854A">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="D6736724-EBBA-EEA9-F078-1B1EB9B864CB">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac" id="D87ED176-CFA5-8CBB-7D68-D3607D6655DB">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="ACB94CC5-DE4C-D071-DCE3-FCCA416CC8B4">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="30EAA5F8-239F-5D13-A58A-331A6260804A">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="52E88B01-4FDF-BAF9-77C2-D4188E586EF3">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dpi" id="D3868ED0-61EE-3359-0BB9-74C4BCA9C6BD">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="E0DF12DD-A8F4-49D0-9FD2-4B696DFCD03B">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESTAURANTE_id" id="FEB6E261-053B-A00D-1D9F-6DE22E36D25B">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:49 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2B55413-5AA6-D2A2-D54F-9ADAB4ED9300" referredColumn="778DA85F-9CEE-D82D-3BDE-DD7D25E843EE"/>
+</associations>
+</Column>
+<Column name="PUESTO_id" id="22802F0C-0A53-B730-1D48-88F8C10000D5">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:58 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E18A108-34A8-E81C-31BA-B1CE5B2F7185" referredColumn="15306312-609A-1215-1130-2868EF2E5AC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E60F577-FA77-13C2-0574-733D363DA909" name="EMPLEADO_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:39 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E14D90E-6E09-B7E2-5A7E-4510C6499667"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8D28DC1-C794-46F8-053A-6E19AECAB3B0" name="EMPLEADO_RESTAURANTE_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:49 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEB6E261-053B-A00D-1D9F-6DE22E36D25B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="248B845E-585F-1FBE-70AC-39E3B2B95B75" name="EMPLEADO_PUESTO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:57:58 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22802F0C-0A53-B730-1D48-88F8C10000D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

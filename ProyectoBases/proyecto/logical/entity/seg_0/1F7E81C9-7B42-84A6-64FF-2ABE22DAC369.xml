@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F7E81C9-7B42-84A6-64FF-2ABE22DAC369" name="PUESTO">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>56D9A6A1-445D-7E33-F724-0312B3B5EF08</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0269CB69-5E05-D6F7-0591-36F45814CEEA">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>15306312-609A-1215-1130-2868EF2E5AC2</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9C217D5F-35C3-7D59-4632-146F0BBEB313">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>14138A50-882B-3BEC-F1EF-2DBE0B933D0E</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="47E925F9-418C-8C56-764E-39AB885FD7CB">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>3F7C2EAD-FF99-9510-1B1C-6C7F55CF12D3</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E320C63-8E12-C250-A898-F6BD8F3C0B34" name="PUESTO PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>476D3A29-1598-B2F3-45F0-7074885A2103</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0269CB69-5E05-D6F7-0591-36F45814CEEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F5DF10B-CBA1-D4CB-4BB1-21984F3D8E6C" name="ITEM">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:09:46 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0BF5D2A5-4A72-B456-62B7-6D6AF877E764">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:29:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_producto" id="6779011C-F494-65BB-5611-DAEE10A2F1D0">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:29:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="producto" id="D9DACBC7-47FA-326B-1447-08FFC77B8180">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:29:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="FDF7E8FE-56C2-3BA8-A111-6B5A85E272EF">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:29:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="52DA53DA-17F1-A791-CF85-A7FDCC5C9650">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:29:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDEN_id" id="03508F22-AF7C-A274-7B37-891DD69605EC">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:29:40 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F8F429C-A437-CCE9-BC15-508CA2945526" referredColumn="BACD57C6-4EBA-BD89-696A-3E2A5103A5E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4C725FD-4458-CDAC-89CD-F12FF68A4844" name="ITEM_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:29:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BF5D2A5-4A72-B456-62B7-6D6AF877E764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD7B3240-D7FE-A597-E0CB-DBBA20DD9B70" name="ITEM_ORDEN_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:29:40 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03508F22-AF7C-A274-7B37-891DD69605EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

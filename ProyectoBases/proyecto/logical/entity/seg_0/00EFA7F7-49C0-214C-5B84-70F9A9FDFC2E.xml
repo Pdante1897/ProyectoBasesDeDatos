@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00EFA7F7-49C0-214C-5B84-70F9A9FDFC2E" name="ITEM">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>7F5DF10B-CBA1-D4CB-4BB1-21984F3D8E6C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="862E1FE2-5E2C-FF98-A8EC-5F52C87EEB91">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>0BF5D2A5-4A72-B456-62B7-6D6AF877E764</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo producto" id="D230B03B-2A99-026B-036A-43980CC33785">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>6779011C-F494-65BB-5611-DAEE10A2F1D0</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="producto" id="6C416538-2972-E55C-9A15-DFC2398F93D9">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>D9DACBC7-47FA-326B-1447-08FFC77B8180</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="F10A99C7-F424-B395-2395-E57238A35CE5">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>FDF7E8FE-56C2-3BA8-A111-6B5A85E272EF</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="B8246CA7-DC19-6F4D-223E-F4482E606E1E">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>52DA53DA-17F1-A791-CF85-A7FDCC5C9650</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDEN id" id="3892D15C-C253-9201-38BD-A097836BB875">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>B45DEEF1-F01E-B4AA-56E1-051CD73ED913</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>DD8D14B5-85A8-81E0-51C4-41BC5B149012</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C1571AD-4A6D-FF0C-769A-760EA10356E0" name="ITEM PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:43:08 UTC</createdTime>
+<generatorID>A4C725FD-4458-CDAC-89CD-F12FF68A4844</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>862E1FE2-5E2C-FF98-A8EC-5F52C87EEB91</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F33C1C3C-09B3-56C2-4713-1223E1BF72AE" name="DIRECCION">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:05:30 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="502B7152-BFB0-CD84-AE7E-D1AE0A7ED9B4">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:06:50 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="4AE99483-3AF9-A62E-942A-30ED8AAD3366">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:06:50 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zona" id="184A46B9-93E3-A09A-FF4C-C545A12FE753">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:07:33 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_dpi" id="6AF7B8DD-A1DA-138D-7995-E58488899EFD">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:08:27 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07A24C09-CEF8-D797-C09E-5D2F2ABFE17F" referredColumn="C0FEEFD1-6619-B4D9-22E7-30910E1A4879"/>
+</associations>
+</Column>
+<Column name="MUNICIPIO_id" id="085D65E9-D216-83CA-F93A-5515FEDE8199">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:51:40 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9F0E6D8-8530-FC3A-94D9-728DB7C073D4" referredColumn="366DF605-C8F3-1630-64F2-B838DC6EB736"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FB3FC22-57B6-1614-9AD0-37DA3D2EFB9C" name="DIRECCION_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:06:50 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="502B7152-BFB0-CD84-AE7E-D1AE0A7ED9B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22DA5524-F041-115B-605E-9723DA98A019" name="DIRECCION_CLIENTE_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:08:27 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AF7B8DD-A1DA-138D-7995-E58488899EFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B83D762-BDF3-3899-EAA9-72089F98FB52" name="DIRECCION_MUNICIPIO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 06:51:40 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="085D65E9-D216-83CA-F93A-5515FEDE8199"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

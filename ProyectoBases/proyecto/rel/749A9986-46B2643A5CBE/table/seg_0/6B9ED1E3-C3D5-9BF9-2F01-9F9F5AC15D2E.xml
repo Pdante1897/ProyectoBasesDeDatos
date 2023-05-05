@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B9ED1E3-C3D5-9BF9-2F01-9F9F5AC15D2E" name="RESTAURANTE">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:33:46 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="778DA85F-9CEE-D82D-3BDE-DD7D25E843EE">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:44:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="642B1E00-1FE0-9E4F-221F-24C5313BF591">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:44:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zona" id="B17941E9-B5AE-FCC0-8F6A-2E775F6200E0">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:45:38 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personal" id="8F3C49D9-D8F1-18DF-FD7A-98D500795D12">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:45:38 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parqueo" id="A048A05C-FBE3-39A6-B591-3A326E988E38">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:45:38 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO_id" id="543A29C1-764E-4DAD-9C47-CB811F9A171B">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:47:42 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9996FA80-CAB4-7E21-5B2B-6001AB044DEB" referredColumn="366DF605-C8F3-1630-64F2-B838DC6EB736"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBA6337C-C098-D0BB-3F0E-426030CBE29E" name="RESTAURANTE_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:44:08 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="778DA85F-9CEE-D82D-3BDE-DD7D25E843EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C414D998-8ADF-D15F-3C54-07E13E7C14A8" name="RESTAURANTE_MUNICIPIO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 03:47:42 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="543A29C1-764E-4DAD-9C47-CB811F9A171B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

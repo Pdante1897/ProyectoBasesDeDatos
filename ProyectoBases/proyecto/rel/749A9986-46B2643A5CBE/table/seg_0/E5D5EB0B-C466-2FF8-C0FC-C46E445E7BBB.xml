@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5D5EB0B-C466-2FF8-C0FC-C46E445E7BBB" name="TRANSACCION">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 18:22:31 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2EDDF0BB-CF43-2326-B1F1-EA1A7AC40AFF">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 18:23:46 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="DB7EDEB5-D987-C270-5C44-394E81C89955">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 18:23:46 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_id" id="EB6BF215-BDF4-4BDC-2280-2C55557DC161">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 18:25:02 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA5A1982-2DF2-7BA6-84C2-D6C5DD7330F0" referredColumn="F1248B42-D0C5-5B0D-4999-65B3F8CED8BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A176FC43-8800-2C5C-3C97-9A8F50891AD5" name="TRANSACCION_PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 18:23:46 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EDDF0BB-CF43-2326-B1F1-EA1A7AC40AFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78553247-77C6-7953-9916-0B387A94526A" name="TRANSACCION_TIPO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 18:25:02 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB6BF215-BDF4-4BDC-2280-2C55557DC161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

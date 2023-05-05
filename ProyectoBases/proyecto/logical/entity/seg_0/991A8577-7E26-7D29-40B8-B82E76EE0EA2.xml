@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="991A8577-7E26-7D29-40B8-B82E76EE0EA2" name="RESTAURANTE">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>6B9ED1E3-C3D5-9BF9-2F01-9F9F5AC15D2E</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0AF74972-4EC4-699D-20FA-DF96D175B2F0">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>778DA85F-9CEE-D82D-3BDE-DD7D25E843EE</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="5DD9A402-D840-96F3-55B4-49794E8C16A0">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>642B1E00-1FE0-9E4F-221F-24C5313BF591</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zona" id="62942F15-61AB-8C29-C344-BD5B45756ACE">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>B17941E9-B5AE-FCC0-8F6A-2E775F6200E0</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="personal" id="F3EB3C6D-1968-D7F2-4BA4-472EA8639E34">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>8F3C49D9-D8F1-18DF-FD7A-98D500795D12</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parqueo" id="592A28CC-C619-9A8E-736B-A706DC2AADBC">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>A048A05C-FBE3-39A6-B591-3A326E988E38</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MUNICIPIO id" id="9875F6AF-C511-053C-3FCD-AB5D7BD5A3A1">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>5A78FC89-1FF0-464A-D1B2-621650D452CC</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>1000843C-2A05-160F-AE2F-DEAAC1FAAB23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C86291B2-1C36-6C8C-BC08-5E57FBAFC77F" name="RESTAURANTE PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>EBA6337C-C098-D0BB-3F0E-426030CBE29E</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0AF74972-4EC4-699D-20FA-DF96D175B2F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

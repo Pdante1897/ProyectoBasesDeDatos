@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B36D7CC-F3EC-53F6-BFDA-7B86E6D035E4" name="EMPLEADO">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>D4411CD3-6E43-3AB0-3060-730CCC019BA6</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E4CFF75E-518B-6F7D-DCAF-18741DE96631">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>0E14D90E-6E09-B7E2-5A7E-4510C6499667</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="A3BC7BF6-BE45-C58F-C6F0-5A8F587984F1">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>E391CA44-25C2-67D9-949A-939BFD93854A</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="D0FC2B48-7BF5-0C23-E7A1-613529511055">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>D6736724-EBBA-EEA9-F078-1B1EB9B864CB</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nac" id="88A1EAFC-ED16-7040-1C4C-51BFE9C82A48">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>D87ED176-CFA5-8CBB-7D68-D3607D6655DB</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="1C6E1C73-DBF9-76E8-ACC4-30F5CE5133A9">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>ACB94CC5-DE4C-D071-DCE3-FCCA416CC8B4</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="43BA4FA8-05E0-CDEA-A2ED-5D2EF31E87C9">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>30EAA5F8-239F-5D13-A58A-331A6260804A</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="72814EAA-4B36-288D-D107-76BE3781D485">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>52E88B01-4FDF-BAF9-77C2-D4188E586EF3</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpi" id="37423DA0-97F1-7DD2-6E17-46AC4E275A23">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>D3868ED0-61EE-3359-0BB9-74C4BCA9C6BD</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha inicio" id="C8C1C41F-32E2-CE18-0700-DAFF2C3631E3">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>E0DF12DD-A8F4-49D0-9FD2-4B696DFCD03B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESTAURANTE id" id="EA9280DE-7C99-4AE2-8BAD-E48C43748F0D">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>6671ED3F-6402-2F72-26D5-29F9F8F3383F</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>0AF74972-4EC4-699D-20FA-DF96D175B2F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PUESTO id" id="EB7F1AB8-E4A3-1C03-4551-D9EBB6F584CD">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>33CAC337-7C10-06E7-B535-4856A9DAEEDC</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>0269CB69-5E05-D6F7-0591-36F45814CEEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8FF4083-7A49-DEDE-274C-42CFF2A46BC7" name="EMPLEADO PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-03 04:04:37 UTC</createdTime>
+<generatorID>4E60F577-FA77-13C2-0574-733D363DA909</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4CFF75E-518B-6F7D-DCAF-18741DE96631</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
