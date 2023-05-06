@@ -96,6 +96,21 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PRODUCTO id" id="25F6EF4A-FDBA-9349-02C7-7B665B81726A">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>B7F77AAC-5233-8507-539D-0E167C139687</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<referedAttribute>EEE1C932-14F1-BB86-B027-3DEF07A072CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6C1571AD-4A6D-FF0C-769A-760EA10356E0" name="ITEM PK">

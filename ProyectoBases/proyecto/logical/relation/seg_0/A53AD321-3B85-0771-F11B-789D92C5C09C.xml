@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FACTURA_MUNICIPIO_FK" directorySegmentName="seg_0" id="A53AD321-3B85-0771-F11B-789D92C5C09C">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>3FB9DF8D-2E91-06CC-5C76-647C81AB8117</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<sourcePk>68F0FC01-53BB-737F-A61C-647CD288083E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0603391A-0579-1D44-4ECF-454B1CBE5846</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>48AFA344-DE3C-4254-D630-F8666581B092</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

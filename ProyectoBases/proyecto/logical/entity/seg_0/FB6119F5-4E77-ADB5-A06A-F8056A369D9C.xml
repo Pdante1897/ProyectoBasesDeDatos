@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB6119F5-4E77-ADB5-A06A-F8056A369D9C" name="PRODUCTO">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>20893FF0-4E52-6BCA-541C-D8409C661ECB</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EEE1C932-14F1-BB86-B027-3DEF07A072CE">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>3D1AAB03-4CF1-F85C-7613-850A77986687</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E749F0DF-6F53-90CB-ED37-137D5C8A3739">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>5068A5C1-F703-82AA-CD60-FDDEBA0313FE</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="832A0F4C-738F-9743-B7FA-41BBC54CF0B7">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>48F54923-EF8B-4D09-38F0-4E87A98DBB43</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FC1B54C-708A-D756-3F5B-4B0286B9BE89" name="PRODUCTO PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>DACDEC66-B6D1-6839-D2BA-F4355097BBD8</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEE1C932-14F1-BB86-B027-3DEF07A072CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

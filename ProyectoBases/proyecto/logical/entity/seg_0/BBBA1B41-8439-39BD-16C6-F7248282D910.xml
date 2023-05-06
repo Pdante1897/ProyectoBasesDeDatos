@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBBA1B41-8439-39BD-16C6-F7248282D910" name="TIPO">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>9F41A920-A759-E8EA-3131-253A6A2BB130</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3B5C7015-AAE0-8B07-E000-354C077613A5">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>F1248B42-D0C5-5B0D-4999-65B3F8CED8BF</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="6EF7248A-CAB9-5E0D-7D92-5223C595686C">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>045F1273-B341-C7BF-662F-086E77A1A715</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4919FDD8-3F91-C3F4-93B6-E54FA5654579" name="TIPO PK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:29:56 UTC</createdTime>
+<generatorID>23315914-21E9-E0A7-00EC-A81097EE4EAB</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="749A9986-17A3-8A04-EA04-46B2643A5CBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B5C7015-AAE0-8B07-E000-354C077613A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

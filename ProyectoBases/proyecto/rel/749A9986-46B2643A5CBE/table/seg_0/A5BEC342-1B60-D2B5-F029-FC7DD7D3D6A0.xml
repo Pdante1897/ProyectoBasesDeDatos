@@ -85,6 +85,20 @@
 <colAssociation fkAssociation="1BFC06FC-E06D-7D50-3E2C-B38A1717EA00" referredColumn="BACD57C6-4EBA-BD89-696A-3E2A5103A5E9"/>
 </associations>
 </Column>
+<Column name="MUNICIPIO_id" id="A144174E-0CFB-1FF0-5E99-B7399C44EE19">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:23:10 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FB9DF8D-2E91-06CC-5C76-647C81AB8117" referredColumn="366DF605-C8F3-1630-64F2-B838DC6EB736"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="62BB3771-ADBC-FD5F-63C4-B0F463C612D0" name="FACTURA_PK">
@@ -106,6 +120,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6CA9CCCA-6442-CF33-CD03-C42C30342E89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDF4E1C4-3B05-C9E2-DB6E-D3E968ED7C92" name="FACTURA_MUNICIPIO_FK">
+<createdBy>gerar</createdBy>
+<createdTime>2023-05-06 02:23:10 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A144174E-0CFB-1FF0-5E99-B7399C44EE19"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
